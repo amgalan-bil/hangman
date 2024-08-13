@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @media only screen and (min-width:320px) and (max-width:480px){
+            body{
+                background-color: aqua;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        @media only screen and (min-width:481px) and (max-width:768px){
+
+            body{
+                background-color: blue;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        @media only screen and (min-width:769px) and (max-width:1024px){
+
+            body{
+                background-color: blueviolet;
+            }
+            .box{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .box1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .box2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        @media only screen and (min-width:1025px) and (max-width:1200px) {
+
+            body{
+                background-color: red;
+
+            }
+            .box{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .box1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .box2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        @media only screen and (min-width:1201px){
+
+            body{
+                background-color: green;
+            }
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+ 
+            position: relative;
+            gap: 1%;
+        }
+
+        .box{
+            width: 200px;
+            height: 150px;
+            background-color: beige;
+            color: black;
+            border: 5px solid black;
+
+        }
+
+        .box1{
+            width: 200px;
+            height: 150px;
+            background-color: beige;
+            color: black;
+            border: 5px solid black;
+
+        }
+
+        .box2{
+            width: 200px;
+            height: 150px;
+            background-color: beige;
+            color: black;
+            border: 5px solid black;
+
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box"> box1</div>
+    <div class="box1"> box2</div>
+    <div class="box2"> box3</div>
+</div>
+</body>
+</html>

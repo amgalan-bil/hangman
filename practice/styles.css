@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Your exercise starts here. */
+  /* In this exercise, you will learn how to use the top, right, bottom, and left properties. Position the squares according to their description. Make sure to include the position property where necessary. */
+  
+main {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+p {
+    text-align: center;
+  }
+  
+.fixed{
+    display: flex;
+    height: 10vh;
+    width: 10vw;
+    background-color: red;
+    position: fixed;
+    left: 0px;
+
+  }
+  
+
+.relative{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 10vw;
+    background-color: yellow;
+    position:relative;
+    left: 90vw;
+    margin-bottom: 15%;
+  }
+  
+  
+.sticky{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 10vh;
+    width: 10vw;
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    left: 45%;
+  }
+
+.height-booster{
+    height: 1000px;
+}
+  
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    position: absolute;
+    height: 5vh;
+    width: 5vw;
+    left: 2.5vw;
+    top: 2.5vh;
+}

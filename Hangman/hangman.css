@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:30px;
+    background-color: #c1d72e;
+    height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
+}
+
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+     margin:5px 0;
+     text-align: center;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+
+#letters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;    
+}
+
+#selected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    /* color: rgb(166, 255, 0); */
+    color: #c1d72e;
+    
+}
+
+.vessel :hover{
+    background-color: #c1d72e;
+    color: white;
+    border:2px white solid;
+    cursor: pointer;
+}
+
+/* .repository{
+    border-bottom: 2px solid white;
+    width: 50px;
+} */
+
+#guess1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#underscoreDiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 60px;
+}
+
+#hint, #reset{
+    border-radius: 5px;
+    height: 65px;
+    background-color: #c1d72e;
+    color:white;
+    border: solid 1px white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+    outline: none;
+    
+      &:hover{
+        
+        background:white;
+        border: solid 1px white;
+        color:#c1d72e;
+      }
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
